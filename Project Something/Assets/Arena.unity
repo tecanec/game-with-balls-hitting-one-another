@@ -782,7 +782,7 @@ GameObject:
   - component: {fileID: 376990493}
   - component: {fileID: 376990492}
   m_Layer: 5
-  m_Name: MAINMENU
+  m_Name: MAIN MENU
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -852,7 +852,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MAINMENU
+  m_Text: MAIN MENU
 --- !u!222 &376990494
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1577,7 +1577,7 @@ GameObject:
   - component: {fileID: 1012780221}
   - component: {fileID: 1012780220}
   m_Layer: 5
-  m_Name: MAINMENU (Buttom)
+  m_Name: MAIN MENU (Buttom)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2469,8 +2469,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1025157808}
-        m_MethodName: QuitGame
+      - m_Target: {fileID: 1785862211}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2501,8 +2501,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: b1bc351306e14324ea30f86bb74428a0, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
