@@ -54,8 +54,16 @@ public class PauseMenu : MonoBehaviour {
 
    public void RestartGame()
     {
-        SceneManager.LoadScene("Arena");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("StartMenu");
+    }
+
 }
+
+
 
 
