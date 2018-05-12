@@ -28,7 +28,7 @@ sysinfo.txt
 *.pidb
 .DS_Store
 
-.vs/
+.vs/ 
 
 ###
 # OS generated
