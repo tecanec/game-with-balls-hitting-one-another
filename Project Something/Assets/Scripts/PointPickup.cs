@@ -17,6 +17,8 @@ public class PointPickup : MonoBehaviour {
     public enum Type { normal, detract, attract, speedy };
     Type currentType;
 
+    int framesSinceRelocated = 0;
+
     private void Start()
     {
         RandomLocation();
@@ -39,6 +41,9 @@ public class PointPickup : MonoBehaviour {
         }
 
         body.velocity *= 1 - Time.deltaTime;
+
+        if (framesSinceRelocated < int.MaxValue)
+            framesSinceRelocated++;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -46,8 +51,10 @@ public class PointPickup : MonoBehaviour {
         Player target = collision.gameObject.GetComponent<Player>();
         if (target)
         {
-            target.GivePoint(1, currentType);
+            if (framesSinceRelocated > 2)
+                target.GivePoint(1, currentType);
             RandomLocation();
+            framesSinceRelocated = 0;
         }
     }
 
