@@ -56,6 +56,14 @@ public class PauseMenu : MonoBehaviour {
     {
         SceneManager.LoadScene("Arena");
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("StartMenu");
+    }
+
 }
+
+
 
 
