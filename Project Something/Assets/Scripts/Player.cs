@@ -6,14 +6,14 @@ public class Player : MonoBehaviour {
     public Rigidbody2D body;
     public AudioSource audioSource;
     public PointEffector2D pointEffector;
-    public SpriteRenderer roleMarker;
+    public MeshRenderer mesh; 
 
     public AudioClip Blop;
     public AudioClip BaDing;
     public AudioClip KraDing;
 
-    public Sprite HappyRoleMarker;
-    public Sprite SadRoleMarker;
+    public Material HappyRoleLight;
+    public Material SadRoleLight;
 
     public float HappyAcceleration;
     public float SadAcceleration;
@@ -35,9 +35,9 @@ public class Player : MonoBehaviour {
     // Use this for initialization
     void Start () {
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update() {
         RoleSwiched = false;
 
         Vector2 movement = Vector2.zero;
@@ -63,7 +63,7 @@ public class Player : MonoBehaviour {
         {
             transform.position -= (Vector3)gameZone.position - new Vector3(.5f, .5f);
             transform.position = new Vector3(
-                Mathf.Repeat(transform.position.x, gameZone.width + 1), 
+                Mathf.Repeat(transform.position.x, gameZone.width + 1),
                 Mathf.Repeat(transform.position.y, gameZone.height + 1)
             );
             transform.position += (Vector3)gameZone.position - new Vector3(.5f, .5f);
@@ -77,9 +77,9 @@ public class Player : MonoBehaviour {
 
         speedyTimer -= Time.deltaTime;
 
-        roleMarker.sprite = (HappyRole == this) ? HappyRoleMarker : SadRoleMarker;
-        roleMarker.transform.position = transform.position + new Vector3(0, 0, -3);
-        roleMarker.transform.rotation = Quaternion.identity;
+        Material[] mats = mesh.materials;
+        mats[1] = (HappyRole == this) ? HappyRoleLight : SadRoleLight;
+        mesh.materials = mats;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
