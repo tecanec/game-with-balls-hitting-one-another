@@ -56,7 +56,7 @@ public class Player : MonoBehaviour {
         if (body.velocity.magnitude > 3 * MaxSpeed)
             body.velocity = body.velocity.normalized * MaxSpeed * 3;
 
-        transform.rotation = Quaternion.Euler(body.velocity.y, -body.velocity.x, 0) * transform.rotation;
+        transform.rotation = Quaternion.Euler(new Vector3(body.velocity.y, -body.velocity.x, 0) * Mathf.Rad2Deg * Time.deltaTime) * transform.rotation;
 
         Rect gameZone = GameMasta.TheMasta.gameZone;
         if (!gameZone.Contains(transform.position))
