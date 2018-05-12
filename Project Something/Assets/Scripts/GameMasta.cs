@@ -38,6 +38,8 @@ public class GameMasta : MonoBehaviour {
 
         gameZone.width = cam.aspect * 10;
         gameZone.position = new Vector2(-gameZone.width / 2, -5);
+
+        Player.HappyRole = (Random.Range(0, 2) == 0) ? P1 : P2;
 	}
 
     private void Update()

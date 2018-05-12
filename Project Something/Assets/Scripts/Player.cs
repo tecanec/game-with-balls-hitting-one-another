@@ -34,8 +34,6 @@ public class Player : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        if (HappyRole == null)
-            HappyRole = this;
 	}
 	
 	// Update is called once per frame
