@@ -286,6 +286,10 @@ MonoBehaviour:
   KraDing: {fileID: 8300000, guid: 3a381457d4213dc4f8d29c448e79d284, type: 3}
   HappyRoleLight: {fileID: 2100000, guid: 371f67f3c4c41974baa45214b5b51c11, type: 2}
   SadRoleLight: {fileID: 2100000, guid: 172cab542ff22464e9a8cc3d57b194c8, type: 2}
+  HappyFace: {fileID: 2100000, guid: 623d0ee7f59a7e54b8a5fb814af52fd5, type: 2}
+  SadFace: {fileID: 2100000, guid: 2c3e8c889e0d9f14f81d592afbf29970, type: 2}
+  LightMaterialInMeshID: 1
+  FaceMaterialInMeshID: 3
   HappyAcceleration: 3
   SadAcceleration: 4
   MaxSpeed: 10

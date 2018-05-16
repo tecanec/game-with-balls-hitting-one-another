@@ -14,6 +14,11 @@ public class Player : MonoBehaviour {
 
     public Material HappyRoleLight;
     public Material SadRoleLight;
+    public Material HappyFace;
+    public Material SadFace;
+
+    public int LightMaterialInMeshID = 1;
+    public int FaceMaterialInMeshID = 3;
 
     public float HappyAcceleration;
     public float SadAcceleration;
@@ -78,7 +83,8 @@ public class Player : MonoBehaviour {
         speedyTimer -= Time.deltaTime;
 
         Material[] mats = mesh.materials;
-        mats[1] = (HappyRole == this) ? HappyRoleLight : SadRoleLight;
+        mats[LightMaterialInMeshID] = (HappyRole == this) ? HappyRoleLight : SadRoleLight;
+        mats[FaceMaterialInMeshID] = (GameMasta.TheMasta.P1Ahead ^ (this == GameMasta.TheMasta.P2)) ? HappyFace : SadFace;
         mesh.materials = mats;
     }
 

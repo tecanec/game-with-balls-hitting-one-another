@@ -26,8 +26,16 @@ public class GameMasta : MonoBehaviour {
 
     bool gameEnded = false;
 
-    bool p1Ahead;
+    private bool p1Ahead;
     float aheadSignStartTime;
+
+    public bool P1Ahead
+    {
+        get
+        {
+            return p1Ahead;
+        }
+    }
 
     // Use this for initialization
     void Start () {
