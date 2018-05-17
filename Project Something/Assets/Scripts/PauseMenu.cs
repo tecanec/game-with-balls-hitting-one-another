@@ -8,6 +8,7 @@ public class PauseMenu : MonoBehaviour {
     public static bool GameisPaused = false;
 
     public GameObject pauseMenuUI;
+    public AudioLowPassFilter pauseFilter;
     
 
     // Update is called once per frame
@@ -31,6 +32,8 @@ public class PauseMenu : MonoBehaviour {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameisPaused = false;
+        if (pauseFilter)
+            pauseFilter.enabled = false;
     }
 
    void Pause ()
@@ -38,7 +41,9 @@ public class PauseMenu : MonoBehaviour {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameisPaused = true;
-   }
+        if (pauseFilter)
+            pauseFilter.enabled = true;
+    }
 
    public void LoadSettingsMenu()
     {
