@@ -32,7 +32,8 @@ public class PauseMenu : MonoBehaviour {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameisPaused = false;
-        if (pauseFilter)
+
+        if (pauseFilter) // Sluk low-pass filtret, når spillet fortsættes
             pauseFilter.enabled = false;
     }
 
@@ -41,7 +42,8 @@ public class PauseMenu : MonoBehaviour {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameisPaused = true;
-        if (pauseFilter)
+
+        if (pauseFilter) // Tænd low-pass filtret, når spillet sættes på pause
             pauseFilter.enabled = true;
     }
 
