@@ -1,11 +1,19 @@
 fileFormatVersion: 2
 guid: d2097db5d2d66dc4484b1977bb5715e9
-timeCreated: 1523116283
-licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - P1: {instanceID: 0}
+  - P2: {instanceID: 0}
+  - cam: {instanceID: 0}
+  - clockText: {instanceID: 0}
+  - winnerDisplay: {instanceID: 0}
+  - leadMarker: {instanceID: 0}
+  - P1WinSprite: {fileID: 21300000, guid: befb4daf7c1749240b44eeb7120a0b3c, type: 3}
+  - P2WinSprite: {fileID: 21300000, guid: 7b6149d4b4c71b94abeb5095a0e5861a, type: 3}
+  - P1LeadSprite: {fileID: 21300000, guid: 175785fd551a9484998d45fd64a52774, type: 3}
+  - P2LeadSprite: {fileID: 21300000, guid: 22107e983ed87324d9892301461a6dfc, type: 3}
   executionOrder: -100
   icon: {instanceID: 0}
   userData: 

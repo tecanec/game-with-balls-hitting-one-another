@@ -1,11 +1,16 @@
 fileFormatVersion: 2
 guid: fad6f872b9b39b0428d09abf75f92a9b
-timeCreated: 1523099288
-licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - sprite: {instanceID: 0}
+  - body: {instanceID: 0}
+  - collider: {instanceID: 0}
+  - normalSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  - detractorSprite: {fileID: 21300000, guid: 52dbeba4d4958314e9cd0cd31c17a87e, type: 3}
+  - attractorSprite: {fileID: 21300000, guid: eab7a769434d077438788e2f00c0532e, type: 3}
+  - speedySprite: {fileID: 21300000, guid: c699e0f44299d3646ab0ee155581acc6, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

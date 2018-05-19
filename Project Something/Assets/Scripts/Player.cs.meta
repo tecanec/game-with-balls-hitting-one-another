@@ -1,11 +1,20 @@
 fileFormatVersion: 2
 guid: 04a7e166902bf8d489787700b8c813eb
-timeCreated: 1523095705
-licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - body: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - pointEffector: {instanceID: 0}
+  - mesh: {instanceID: 0}
+  - Blop: {instanceID: 0}
+  - BaDing: {instanceID: 0}
+  - KraDing: {instanceID: 0}
+  - HappyRoleLight: {fileID: 2100000, guid: 371f67f3c4c41974baa45214b5b51c11, type: 2}
+  - SadRoleLight: {fileID: 2100000, guid: 172cab542ff22464e9a8cc3d57b194c8, type: 2}
+  - HappyFace: {fileID: 2100000, guid: 623d0ee7f59a7e54b8a5fb814af52fd5, type: 2}
+  - SadFace: {fileID: 2100000, guid: 2c3e8c889e0d9f14f81d592afbf29970, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
