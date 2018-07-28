@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Back : MonoBehaviour {
 
-    public GameObject BackUI;
+    public GameObject Back4moreUI;
 
 	// Use this for initialization
 	void Start () {
@@ -14,7 +14,7 @@ public class Back : MonoBehaviour {
 	
 	public void back()
     {
-        BackUI.SetActive(true);
+        Back4moreUI.SetActive(true);
         SceneManager.LoadScene("Arena");
         Time.timeScale = 1f;
 
