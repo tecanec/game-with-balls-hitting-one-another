@@ -22,7 +22,7 @@ public class GameMasta : MonoBehaviour {
 
     public Rect gameZone;
 
-    float CountDown = 120;
+    public float CountDown = 120;
 
     bool gameEnded = false;
 
