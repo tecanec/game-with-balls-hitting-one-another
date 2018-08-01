@@ -23,7 +23,7 @@ public class SpinnyThingy : MonoBehaviour {
 	void Update () {
         JointMotor2D motorToChange = Motor.motor;
         motorToChange.motorSpeed = SpinSpeedOverTime.Evaluate((startTime - masta.CountDown) / startTime) * 200;
-        Light.color = Color.Lerp(Blank, Accelerating, motorToChange.motorSpeed - Motor.motor.motorSpeed);
+        Light.color = Color.Lerp(Blank, Accelerating, (motorToChange.motorSpeed - Motor.motor.motorSpeed) / Time.deltaTime);
         Motor.motor = motorToChange;
 	}
 }
