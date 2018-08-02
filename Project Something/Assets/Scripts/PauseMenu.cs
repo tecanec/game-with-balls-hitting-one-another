@@ -8,6 +8,8 @@ public class PauseMenu : MonoBehaviour {
     public static bool GameisPaused = false;
 
     public GameObject pauseMenuUI;
+    public GameObject firstPauseMenu;
+    public GameObject currentMenu;
     public AudioLowPassFilter pauseFilter;
     
 
@@ -39,6 +41,8 @@ public class PauseMenu : MonoBehaviour {
 
    void Pause ()
    {
+        ChangeMenu(firstPauseMenu);
+
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameisPaused = true;
@@ -47,20 +51,21 @@ public class PauseMenu : MonoBehaviour {
             pauseFilter.enabled = true;
     }
 
-   public void LoadSettingsMenu()
+    public void ChangeMenu(GameObject setTo)
     {
-        SceneManager.LoadScene("SettingsMenu");
-        Time.timeScale = 0f;
+        if (setTo) setTo.SetActive(true);
+        if (currentMenu) currentMenu.SetActive(false);
+        currentMenu = setTo;
     }
 
-   public void QuitGame()
+    public void QuitGame()
     {
         Debug.Log("Quiting game");
         Application.Quit();
     }
 
 
-   public void RestartGame()
+    public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1f;
