@@ -53,8 +53,8 @@ public class PauseMenu : MonoBehaviour {
 
     public void ChangeMenu(GameObject setTo)
     {
-        if (setTo) setTo.SetActive(true);
         if (currentMenu) currentMenu.SetActive(false);
+        if (setTo) setTo.SetActive(true);
         currentMenu = setTo;
     }
 
