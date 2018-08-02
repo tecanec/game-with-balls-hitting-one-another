@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SelectLevel : MonoBehaviour
+public class Selectlevel : MonoBehaviour
 {
 
     public GameObject SelectArenaUI;
