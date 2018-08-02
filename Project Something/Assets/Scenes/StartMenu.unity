@@ -203,7 +203,8 @@ AudioSource:
   m_GameObject: {fileID: 243900892}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 243240383254570636, guid: b2fbb0cabb62a7a4cbf2b071b836b0f0,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 70f20e6583ab2bf4ca835b4d6acc2d7d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -320,6 +321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a0ead491c231ba43b50ab824af2c111, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StageName: Main Floor
 --- !u!114 &1083576382
 MonoBehaviour:
   m_ObjectHideFlags: 0
