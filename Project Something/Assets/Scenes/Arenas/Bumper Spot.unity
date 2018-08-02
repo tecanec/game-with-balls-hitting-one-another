@@ -156,6 +156,21 @@ Prefab:
       propertyPath: m_Name
       value: Bumper (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 212054020906416204, guid: cc68386166b05b34788e6d7ab5ed4fb8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212054020906416204, guid: cc68386166b05b34788e6d7ab5ed4fb8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.8018868
+      objectReference: {fileID: 0}
+    - target: {fileID: 212054020906416204, guid: cc68386166b05b34788e6d7ab5ed4fb8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.03332158
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc68386166b05b34788e6d7ab5ed4fb8, type: 2}
   m_IsPrefabParent: 0
@@ -721,6 +736,21 @@ Prefab:
     - target: {fileID: 1990278521034144, guid: cc68386166b05b34788e6d7ab5ed4fb8, type: 2}
       propertyPath: m_Name
       value: Bumper (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212054020906416204, guid: cc68386166b05b34788e6d7ab5ed4fb8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212054020906416204, guid: cc68386166b05b34788e6d7ab5ed4fb8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.8039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 212054020906416204, guid: cc68386166b05b34788e6d7ab5ed4fb8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.03529412
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc68386166b05b34788e6d7ab5ed4fb8, type: 2}
