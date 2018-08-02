@@ -9,9 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/StartMenu.unity
     guid: 199c6fa72afca544c8159cfedf9de343
   - enabled: 1
-    path: Assets/Scenes/Arena.unity
-    guid: d15e7bc6246dc0346a03b18d5b5ac47d
-  - enabled: 1
     path: Assets/Scenes/SettingsMenu.unity
     guid: af8d7ec3b2c4f014a8fe5988a7058f71
+  - enabled: 1
+    path: Assets/Scenes/Arenas/Main Floor.unity
+    guid: d15e7bc6246dc0346a03b18d5b5ac47d
+  - enabled: 1
+    path: Assets/Scenes/Arenas/Bumper Spot.unity
+    guid: 2001981cabfb645479da427a915726c2
+  - enabled: 1
+    path: Assets/Scenes/Arenas/The Mixer.unity
+    guid: b9b61a8a58f7d3740ad2ddeb0349bddb
+  - enabled: 1
+    path: Assets/Scenes/Arenas/Training Zone.unity
+    guid: c3f1848c3b4e490428e96066d28c67dc
   m_configObjects: {}
