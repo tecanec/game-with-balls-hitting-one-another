@@ -906,6 +906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1907917655}
   - component: {fileID: 1907917656}
+  - component: {fileID: 1907917657}
   m_Layer: 0
   m_Name: Slider
   m_TagString: Untagged
@@ -973,8 +974,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 1868724405}
   m_HandleRect: {fileID: 1545074988}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 20
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -993,6 +994,20 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1907917657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1907917654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be758a11c36aa0c4b9d0cdcc1d7ea9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 1907917656}
+  target: {fileID: 24100000, guid: b2fbb0cabb62a7a4cbf2b071b836b0f0, type: 2}
+  paramName: VolumeMusic
 --- !u!1 &1941793159
 GameObject:
   m_ObjectHideFlags: 0
