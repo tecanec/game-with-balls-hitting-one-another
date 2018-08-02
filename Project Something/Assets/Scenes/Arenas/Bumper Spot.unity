@@ -483,6 +483,16 @@ Prefab:
       propertyPath: P2
       value: 
       objectReference: {fileID: 571886439}
+    - target: {fileID: 114215494817802536, guid: e21a6c1b64e7e5b41ad6193d2121faa0,
+        type: 2}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1127074922}
+    - target: {fileID: 114340812288223472, guid: e21a6c1b64e7e5b41ad6193d2121faa0,
+        type: 2}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 571886439}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e21a6c1b64e7e5b41ad6193d2121faa0, type: 2}
   m_IsPrefabParent: 0
