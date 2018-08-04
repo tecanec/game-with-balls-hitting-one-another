@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class StartMenu : MonoBehaviour {
+    public string StageName = "Main Floor";
 
 	// Use this for initialization
 	void Start () {
@@ -17,6 +18,6 @@ public class StartMenu : MonoBehaviour {
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Arena");
+        SceneManager.LoadScene(StageName);
     }
 }

@@ -5,6 +5,6 @@ PhysicsMaterial2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: BumperPhysics
+  m_Name: Bumper
   friction: 0
-  bounciness: 2
+  bounciness: 2.2
