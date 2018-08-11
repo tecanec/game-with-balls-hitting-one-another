@@ -327,6 +327,10 @@ Prefab:
       propertyPath: m_Name
       value: Player1
       objectReference: {fileID: 0}
+    - target: {fileID: 1699795215810602, guid: a70965f829d30d14fa36dd82be45992a, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a70965f829d30d14fa36dd82be45992a, type: 2}
   m_IsPrefabParent: 0
@@ -638,6 +642,10 @@ Prefab:
     - target: {fileID: 4283741032698856, guid: a70965f829d30d14fa36dd82be45992a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699795215810602, guid: a70965f829d30d14fa36dd82be45992a, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
