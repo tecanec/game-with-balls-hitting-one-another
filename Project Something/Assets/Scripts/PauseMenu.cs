@@ -79,7 +79,7 @@ public class PauseMenu : MonoBehaviour {
 
     public void LoadSelectlevel()
     {
-        SceneManager.LoadScene("Selectlevel");
+        SceneManager.LoadScene("SelectArena");
         Time.timeScale = 0f;
         pauseMenuUI.SetActive(true);
     }
