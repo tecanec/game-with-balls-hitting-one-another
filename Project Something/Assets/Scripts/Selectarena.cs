@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Selectlevel : MonoBehaviour
+public class Selectarena : MonoBehaviour
 {
 
     public GameObject SelectArenaUI;
@@ -11,28 +11,28 @@ public class Selectlevel : MonoBehaviour
     void SelecedArena1()
     {
         SelectArenaUI.SetActive(true);
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("Main Floor");
 
     }
 
     void SelecedArena2()
     {
         SelectArenaUI.SetActive(true);
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("Bumper Spot");
 
     }
 
     void SelecedArena3()
     {
         SelectArenaUI.SetActive(true);
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("The Mixer");
 
     }
 
     void SelecedArena4()
     {
         SelectArenaUI.SetActive(true);
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("Training Zone ");
 
     }
 }

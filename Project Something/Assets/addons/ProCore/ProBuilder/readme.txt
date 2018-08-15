@@ -1,4 +1,4 @@
-Thank you for purchasing and installing ProBuilder! Your support allows us to continue improving these tools, and adding new ones.
+-------------------------------------------------Thank you for purchasing and installing ProBuilder! Your support allows us to continue improving these tools, and adding new ones.
 
 Helpful Links:
 

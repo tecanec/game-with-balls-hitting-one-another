@@ -635,6 +635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0bd4a67913cfc644a4f75bc073a9dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SelectArenaUI: {fileID: 1508740454}
 --- !u!1 &745567833
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,6 +969,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1508740455}
+  - component: {fileID: 1508740456}
   m_Layer: 0
   m_Name: Arenas
   m_TagString: Untagged
@@ -992,6 +994,18 @@ Transform:
   m_Father: {fileID: 645730874}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1508740456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1508740454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0bd4a67913cfc644a4f75bc073a9dba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelectArenaUI: {fileID: 645730870}
 --- !u!1 &1515403225
 GameObject:
   m_ObjectHideFlags: 0
