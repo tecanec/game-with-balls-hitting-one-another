@@ -5,34 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class Selectarena : MonoBehaviour
 {
-
     public GameObject SelectArenaUI;
 
-    void SelecedArena1()
+    public void GoToScene(string destination)
     {
-        SelectArenaUI.SetActive(true);
-        SceneManager.LoadScene("Main Floor");
-
+        SceneManager.LoadScene(destination);
     }
 
-    void SelecedArena2()
+    public void GoToScene(int destination)
     {
-        SelectArenaUI.SetActive(true);
-        SceneManager.LoadScene("Bumper Spot");
-
-    }
-
-    void SelecedArena3()
-    {
-        SelectArenaUI.SetActive(true);
-        SceneManager.LoadScene("The Mixer");
-
-    }
-
-    void SelecedArena4()
-    {
-        SelectArenaUI.SetActive(true);
-        SceneManager.LoadScene("Training Zone ");
-
+        SceneManager.LoadScene(destination);
     }
 }
