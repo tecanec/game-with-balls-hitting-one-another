@@ -458,6 +458,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Alignment: {x: 0, y: 0}
   Offset: {x: 1.5, y: -10}
+--- !u!114 &698029433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 698029427}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71b72ea96a44db14bb65fce5aeb23417, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpectatorPrefab: {fileID: 1670941573420196, guid: 8d916902efd8a8f4f9ea0548fa85c0fa,
+    type: 2}
+  TimeBetween: 1
+  MoveSpeed: 1
 --- !u!4 &751025212 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4022760100308250, guid: 1150d84d6d7e1e64ea7af41c8922ded3,
