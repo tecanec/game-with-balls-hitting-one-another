@@ -141,7 +141,8 @@ Transform:
   m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: 5.5, y: 0, z: 20}
   m_LocalScale: {x: 400, y: 50, z: 100}
-  m_Children: []
+  m_Children:
+  - {fileID: 1941971681}
   m_Father: {fileID: 505469061}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -90, y: -90, z: 0}
@@ -414,6 +415,10 @@ Transform:
 --- !u!1 &698029427 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: a5bf15fd70000f0449e68a1632040dca, type: 3}
+  m_PrefabInternal: {fileID: 1100389983}
+--- !u!4 &698029428 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: a5bf15fd70000f0449e68a1632040dca, type: 3}
   m_PrefabInternal: {fileID: 1100389983}
 --- !u!61 &698029429
 BoxCollider2D:
@@ -800,7 +805,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 20}
+  m_Size: {x: 2, y: 100}
   m_EdgeRadius: 0
 --- !u!4 &1248005241
 Transform:
@@ -808,12 +813,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1248005238}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.2, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.7071068, y: -0.7071068, z: -0, w: 0}
+  m_LocalPosition: {x: -0.049999997, y: 0.013999996, z: 0}
+  m_LocalScale: {x: 0.020000001, y: 0.0025000004, z: 0.0100000035}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 698029428}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1294022935
 Prefab:
@@ -1141,7 +1146,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 20}
+  m_Size: {x: 2, y: 100}
   m_EdgeRadius: 0
 --- !u!4 &1941971681
 Transform:
@@ -1149,12 +1154,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1941971678}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.2, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.7071068, y: 0.7071068, z: -0, w: 0}
+  m_LocalPosition: {x: -0.049999997, y: 0.013999996, z: 0}
+  m_LocalScale: {x: 0.020000001, y: 0.0025000004, z: 0.0100000035}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 62625758}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2093155788 stripped
 MonoBehaviour:
