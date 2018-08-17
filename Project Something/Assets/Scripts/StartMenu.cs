@@ -20,4 +20,9 @@ public class StartMenu : MonoBehaviour {
     {
         SceneManager.LoadScene(StageName);
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
